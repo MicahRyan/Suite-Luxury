@@ -27,6 +27,14 @@ label {
   font-weight: 100;
 }
 
+.navigation-section {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
 .slider-section {
   position: absolute;
   left: 0px;
@@ -152,6 +160,20 @@ label {
   background-image: url('../images/20111214_ko_mm_mmsd_0771a-copy-copy.jpg');
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.absolute-wrapper {
+  position: absolute;
+  left: 0px;
+  top: 30vh;
+  right: 0px;
+  z-index: 100;
+  text-align: center;
+}
+
+.logo-absolute {
+  padding: 1rem;
+  background-color: hsla(0, 0%, 100%, .75);
 }
 
 @font-face {
