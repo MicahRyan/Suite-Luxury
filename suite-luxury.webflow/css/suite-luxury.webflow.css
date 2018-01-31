@@ -1,0 +1,162 @@
+body {
+  font-family: Baskvill, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 100;
+}
+
+p {
+  margin-bottom: 10px;
+  font-family: Baskvill, sans-serif;
+  color: #727272;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+
+.slider-section {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 85vh;
+}
+
+.slider-wrapper {
+  height: 100%;
+}
+
+.slider {
+  height: 100%;
+}
+
+.dark-section-wrapper {
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.dark-section {
+  position: relative;
+  z-index: 3;
+}
+
+.light-section {
+  position: relative;
+  z-index: 3;
+}
+
+.light-section-div {
+  padding: 3rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.fixed-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.background-image-section {
+  position: relative;
+}
+
+.background-image-wrapper {
+  padding: 2rem;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/crop-u116.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/crop-u116.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.center-text-align {
+  font-family: Baskvill, sans-serif;
+}
+
+.form-block {
+  font-weight: 100;
+  text-align: left;
+}
+
+.column-margin {
+  margin-bottom: 1rem;
+}
+
+.transparent-button {
+  border: 1px solid #444;
+  background-color: transparent;
+  color: #444;
+}
+
+.content-wrapper {
+  padding-top: 75vh;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+
+.nav-link.button {
+  padding: 10px;
+  background-color: #7f7f7f;
+  color: #fff;
+}
+
+.slide-background-1 {
+  background-image: url('../images/20120515_dre_suite_lc_0263a-copy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-background-2 {
+  background-image: url('../images/20120229_dre_suite_htp_0324-copy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-background-3 {
+  background-image: url('../images/20110203_dre_suite_del_0202a-copy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-background-4 {
+  background-image: url('../images/20111214_ko_mm_mmsd_0771a-copy-copy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'Baskvill';
+  src: url('../fonts/BASKVILL.TTF') format('undefined');
+  font-weight: 400;
+  font-style: normal;
+}
