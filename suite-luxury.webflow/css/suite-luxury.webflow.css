@@ -1,15 +1,14 @@
 body {
   font-family: Baskvill, sans-serif;
   color: #333;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 1.42857143;
 }
 
 h2 {
   margin-top: 0px;
   margin-bottom: 10px;
   font-size: 32px;
-  line-height: 1.4;
   font-weight: 100;
 }
 
@@ -18,7 +17,6 @@ p {
   font-family: Baskvill, sans-serif;
   color: #727272;
   font-size: 22px;
-  line-height: 1.5;
 }
 
 label {
@@ -52,7 +50,7 @@ label {
 }
 
 .dark-section-wrapper {
-  padding: 1rem;
+  padding: 20px;
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -69,7 +67,7 @@ label {
 }
 
 .light-section-div {
-  padding: 3rem;
+  padding: 40px;
   background-color: #fff;
   text-align: center;
 }
@@ -86,7 +84,7 @@ label {
 }
 
 .background-image-wrapper {
-  padding: 2rem;
+  padding: 30px;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/crop-u116.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/crop-u116.jpg');
   background-position: 0px 0px, 50% 50%;
@@ -96,8 +94,11 @@ label {
 }
 
 .hero-text {
+  font-family: Baskvill, sans-serif;
+  color: #f0f0f0;
   font-size: 3rem;
-  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
 }
 
 .center-text-align {
@@ -117,10 +118,6 @@ label {
   border: 1px solid #444;
   background-color: transparent;
   color: #444;
-}
-
-.content-wrapper {
-  padding-top: 75vh;
 }
 
 .navbar {
@@ -162,18 +159,32 @@ label {
   background-size: cover;
 }
 
-.absolute-wrapper {
-  position: absolute;
-  left: 0px;
-  top: 30vh;
-  right: 0px;
-  z-index: 100;
+.logo-wrapper {
+  position: relative;
+  z-index: 10;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
   text-align: center;
 }
 
 .logo-absolute {
   padding: 1rem;
   background-color: hsla(0, 0%, 100%, .75);
+}
+
+.heading-2 {
+  font-family: Baskvill, sans-serif;
+  color: #f0f0f0;
+  font-size: 32px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.paragraph-element {
+  font-family: Baskvill, sans-serif;
+  color: #727272;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 @font-face {
