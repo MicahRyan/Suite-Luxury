@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Feb 02 2018 20:11:09 GMT+0000 (UTC)  -->
+<!--  Last Published: Mon Feb 05 2018 15:12:44 GMT+0000 (UTC)  -->
 <html data-wf-page="5a6ff1caec49200001801f7c" data-wf-site="5a6ff1caec49200001801f7b">
 <head>
   <meta charset="utf-8">
@@ -82,13 +82,10 @@
               <div class="center-text-align"><img src="images/suiteluxury_vectorlogo_tag.png"></div>
             </div>
             <div class="column-margin w-col w-col-6">
-              <div class="form-block w-form">
-                <form id="email-form" name="email-form" data-name="Email Form"><label for="name">Name:</label><input type="text" class="w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="name"><label for="email">Email:</label><input type="text" class="w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="email" required=""><label for="email-2">Message:</label><textarea id="field" name="field" placeholder="Enter your message" maxlength="5000" class="w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="transparent-button w-button"></form>
-                <div class="w-form-done">
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div class="w-form-fail">
-                  <div>Oops! Something went wrong while submitting the form.</div>
+              <div class="w-embed w-script">
+                <div class="cognito">
+                  <script src="https://services.cognitoforms.com/s/0X1SDXLSHE6WeEvhJuBfRw"></script>
+                  <script>Cognito.load("forms", { id: "1" });</script>
                 </div>
               </div>
             </div>
