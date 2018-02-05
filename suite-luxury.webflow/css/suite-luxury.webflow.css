@@ -162,7 +162,7 @@ label {
 .logo-wrapper {
   position: relative;
   z-index: 10;
-  margin-top: -10%;
+  margin-top: 10vh;
   padding-bottom: 25vh;
   text-align: center;
 }
