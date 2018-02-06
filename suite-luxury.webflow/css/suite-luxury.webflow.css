@@ -161,7 +161,11 @@ label {
 .logo-wrapper {
   position: relative;
   z-index: 10;
+<<<<<<< HEAD
   padding-top: 25vh;
+=======
+  margin-top: 10vh;
+>>>>>>> 436af61df55ad72b3c0c92c746e302493da5a1e8
   padding-bottom: 25vh;
   text-align: center;
 }
