@@ -94,7 +94,6 @@ label {
 }
 
 .hero-text {
-  font-family: Baskvill, sans-serif;
   color: #f0f0f0;
   font-size: 3rem;
   font-weight: 400;
@@ -162,7 +161,7 @@ label {
 .logo-wrapper {
   position: relative;
   z-index: 10;
-  margin-top: -100%;
+  padding-top: 25vh;
   padding-bottom: 25vh;
   text-align: center;
 }
@@ -173,7 +172,6 @@ label {
 }
 
 .heading-2 {
-  font-family: Baskvill, sans-serif;
   color: #f0f0f0;
   font-size: 32px;
   font-weight: 100;
@@ -181,7 +179,6 @@ label {
 }
 
 .paragraph-element {
-  font-family: Baskvill, sans-serif;
   color: #727272;
   font-size: 22px;
   font-weight: 400;
